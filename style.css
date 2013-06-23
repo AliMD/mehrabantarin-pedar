@@ -164,3 +164,11 @@ ul.gallery li img {
 	display: block; 
 	width: 100%; height: auto; 
 }
+div.book-content p {
+	font-family: 'Nazanin' !important;
+	font-weight: normal !important;
+	text-align: justify;
+	font-size: 22px;
+	line-height: 1.7;
+	text-indent: 25px;
+}
