@@ -1,16 +1,12 @@
 @font-face {
 	font-family: 'Nazanin';
-	src:
-		url('font/BNazanin.woff') format('woff'),
-		url('font/BNazanin.ttf') format('truetype');
+	src: url('font/BNazanin.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Titr';
-	src:
-		url('font/BTitrBold.woff') format('woff'),
-		url('font/BTitrBold.ttf') format('truetype');
+	src: url('font/BTitrBold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -20,8 +16,7 @@
 	font-weight:700;
 	src:
 		local('Droid Arabic Naskh'),
-		url("fonts/droidnaskhbold.woff") format('woff'),
-		url("fonts/droidnaskhbold.ttf") format('truetype')
+		url("font/droidnaskhbold.ttf") format('truetype');
 }
 
 
@@ -32,7 +27,7 @@
 }
 
 .droidnaskh {
-	font-family: 'droidnaskh' !important;
+	font-family: 'Droid Arabic Naskh',droidnaskh,Verdana,Geneva,sans-serif !important;
 	font-weight: 700 !important;
 }
 
