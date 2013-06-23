@@ -13,84 +13,12 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<!-- Home -->
-		<div data-role="page" data-theme="d" id="home">
-			<div data-role="header" data-theme="d" data-position="fixed">
-				<a class="ui-btn-right pause" data-role="button" href="#" ><i  class="icon-play"></i><i  class="icon-pause"></i></a>
-				<a class="ui-btn-left" data-role="button" data-transition="none" href="#about" >
-					<i  class="icon-envelope-alt"></i>
-				</a>
-				<h3 class="titr">..:: نام نرم افزار ::..</h3>
-			</div>
-			<div data-role="content" data-theme="d">
-				<div class="img-holder"></div>
-				<ul class="list-item" data-role="listview" data-divider-theme="c" data-inset="false">
-						<li class="big titr" data-role="list-divider" role="heading">
-							متنی در مورد مقالات.
-						</li>
-					<li data-theme="c">
-						<a href="articles/article1.html" class="titr" data-transition="none">
-							<i class="icon-th-list"></i>
-							نام مقاله
-						</a>
-					</li>
-					<li data-theme="c">
-						<a href="articles/article1.html" class="titr" data-transition="none">
-							<i class="icon-th-list"></i>
-							نام مقاله
-						</a>
-					</li>
-					<li data-theme="c">
-						<a href="articles/article1.html" class="titr" data-transition="none">
-							<i class="icon-th-list"></i>
-							نام مقاله
-						</a>
-					</li>
-					<li data-theme="c">
-						<a href="articles/article1.html" class="titr" data-transition="none">
-							<i class="icon-th-list"></i>
-							نام مقاله
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div data-role="footer" data-theme="c" data-position="fixed">
-				<div class="nav-bar" data-role="navbar" data-iconpos="top">
-					<ul>
-						<li>
-							<a class="ui-btn-active ui-state-persist titr" href="#home" data-transition="none">
-								<i class="icon-book"></i>
-								مقالات
-							</a>
-						</li>
-						<li>
-							<a href="#audio" class="titr" data-transition="none">
-								<i class="icon-play"></i>
-								صوتی
-							</a>
-						</li>
-						<li>
-							 <a href="#gallery" class="titr" data-transition="none">
-								<i class="icon-picture"></i>
-								تصاویر
-							</a>
-						</li>
-						<li>
-							<a href="#about" class="titr" data-transition="none">
-								<i class="icon-envelope"></i>
-								درباره ما
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
 
 		<!-- Audio -->
 		<div data-role="page" data-theme="d" id="audio">
 			<div data-role="header" data-theme="d" data-position="fixed">
 				<a class="ui-btn-right pause" data-role="button" href="#" ><i  class="icon-play"></i><i  class="icon-pause"></i></a>
-				<a class="ui-btn-left" data-role="button" data-transition="none" href="#home" >
+				<a class="ui-btn-left" data-role="button" data-transition="none" href="#contents" >
 					<i  class="icon-home"></i>
 				</a>
 				<h3 class="titr">
@@ -154,15 +82,15 @@
 				<div class="nav-bar" data-role="navbar" data-iconpos="top">
 					<ul>
 						<li>
-							<a class="titr" href="#home" data-transition="none">
-								<i class="icon-book"></i>
-								مقالات
-							</a>
-						</li>
-						<li>
 							<a href="#audio" class="titr ui-btn-active ui-state-persist" data-transition="none">
 								<i class="icon-play"></i>
 								صوتی
+							</a>
+						</li>
+						<li>
+							<a class="titr" href="#contents" data-transition="none">
+								<i class="icon-book"></i>
+								مطالب
 							</a>
 						</li>
 						<li>
@@ -181,57 +109,137 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- Audio Part 2 -->
-		<div data-role="page" data-theme="d" id="audio-ghamname">
+		
+		<!-- contents -->
+		<div data-role="page" data-theme="d" id="contents">
 			<div data-role="header" data-theme="d" data-position="fixed">
 				<a class="ui-btn-right pause" data-role="button" href="#" ><i  class="icon-play"></i><i  class="icon-pause"></i></a>
-				<a class="back ui-btn-left" data-role="button" data-transition="none" href="#audio" >
-					<i  class="icon-arrow-left"></i>
+				<a class="ui-btn-left" data-role="button" data-transition="none" href="#about" >
+					<i  class="icon-envelope-alt"></i>
 				</a>
-				<h3 class="titr">
-					..:: نام نرم افزار ::..
-				</h3>
+				<h3 class="titr">..:: نام نرم افزار ::..</h3>
 			</div>
-			<div data-role="content" data-theme="c">
+			<div data-role="content" data-theme="d">
 				<div class="img-holder"></div>
-				<ul class="list-item" data-role="listview" data-divider-theme="c" data-inset="false">
-						<li class="big titr" data-role="list-divider" role="heading">
-							نام دسته بندی
-						</li>
+				<ul class="list-item" data-role="listview" data-divider-theme="d" data-inset="true">
 					<li data-theme="c">
-						<a href="#" data-audio="ghamnameye-madar-1" class="titr audio-tag" data-transition="none">
-							نام فایل صوتی
+						<a href="pages/page1.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							سرآغاز
 						</a>
 					</li>
 					<li data-theme="c">
-						<a href="#" data-audio="ghamnameye-madar-2" class="titr audio-tag" data-transition="none">
-							نام فایل صوتی
+						<a href="pages/page2.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							توفیق خدمت
 						</a>
 					</li>
 					<li data-theme="c">
-						<a href="#" data-audio="ghamnameye-madar-3" class="titr audio-tag" data-transition="none">
-							نام فایل صوتی
+						<a href="pages/page3.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							 گرفتاری های امام عصر علیه السلام
 						</a>
 					</li>
 					<li data-theme="c">
-						<a href="#" data-audio="ghamnameye-madar-4" class="titr audio-tag" data-transition="none">
-							نام فایل صوتی
+						<a href="pages/page4.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							آن مرد دانا، كه قدرش را نمیدانيم
 						</a>
 					</li>
 					<li data-theme="c">
-						<a href="#" data-audio="ghamnameye-madar-5" class="titr audio-tag" data-transition="none">
-							نام فایل صوتی
+						<a href="pages/page5.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							قصد نكوهش نيست، بياييد كار سازنده ای بكنيم!
 						</a>
 					</li>
 					<li data-theme="c">
-						<a href="#" data-audio="ghamnameye-madar-6" class="titr audio-tag" data-transition="none">
-							نام فایل صوتی
+						<a href="pages/page6.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							نابرده رنج گنج ميسر نمی شود!
 						</a>
 					</li>
 					<li data-theme="c">
-						<a href="#" data-audio="ghamnameye-madar-7" class="titr audio-tag" data-transition="none">
-							نام فایل صوتی
+						<a href="pages/page7.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							درسی از رژيم های سخت غذايی
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page8.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							قصه آن چاه پر ازآب
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page9.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							پنج راه برای ياری امام عصر علیه السلام
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page10.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							تجليل از امام عصر كه جان هايمان فدايش باد
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page11.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							احيای امر امام عصر عليه السلام
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page12.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							آبرودار امام عصر باشيم!
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page13.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							با پرهيزكاری به ياری امام مهدی عليه السلام بشتابيم
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page14.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							خود را در محضر امام زمان عليه السلام ببينيم!
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page15.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							صدقه برای سلامت او
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page16.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							دعا برای فرج امام عصر عليه السلام
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page17.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							ياری امام عصر از طريق ياری شيعيان ايشان
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page18.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							مانند پيرمرد قفل ساز
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page19.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							بشارت به ياوران خدا
+						</a>
+					</li>
+					<li data-theme="c">
+						<a href="pages/page20.html" class="titr" data-transition="none">
+							<i class="icon-th-list"></i>
+							پینوشت ها
 						</a>
 					</li>
 				</ul>
@@ -240,19 +248,19 @@
 				<div class="nav-bar" data-role="navbar" data-iconpos="top">
 					<ul>
 						<li>
-							<a class="titr" href="#home" data-transition="none">
-								<i class="icon-book"></i>
-								مقالات
-							</a>
-						</li>
-						<li>
-							<a href="#audio" class="titr ui-btn-active ui-state-persist" data-transition="none">
+							<a href="#audio" class="titr" data-transition="none">
 								<i class="icon-play"></i>
 								صوتی
 							</a>
 						</li>
 						<li>
-							<a href="#gallery" class="titr" data-transition="none">
+							<a class="ui-btn-active ui-state-persist titr" href="#contents" data-transition="none">
+								<i class="icon-book"></i>
+								مطالب
+							</a>
+						</li>
+						<li>
+							 <a href="#gallery" class="titr" data-transition="none">
 								<i class="icon-picture"></i>
 								تصاویر
 							</a>
@@ -272,7 +280,7 @@
 		<div data-role="page" data-theme="d" id="about">
 			<div data-role="header" data-theme="d" data-position="fixed">
 				<a class="ui-btn-right pause" data-role="button" href="#" ><i  class="icon-play"></i><i  class="icon-pause"></i></a>
-				<a class="ui-btn-left" data-role="button" data-transition="none" href="#home" >
+				<a class="ui-btn-left" data-role="button" data-transition="none" href="#contents" >
 					<i  class="icon-home"></i>
 				</a>
 				<h3 class="titr">
@@ -297,15 +305,15 @@
 				<div class="nav-bar" data-role="navbar" data-iconpos="top">
 					<ul>
 						<li>
-							<a class="titr" href="#home" data-transition="none">
-								<i class="icon-book"></i>
-								مقالات
-							</a>
-						</li>
-						<li>
 							<a href="#audio" class="titr" data-transition="none">
 								<i class="icon-play"></i>
 								صوتی
+							</a>
+						</li>
+						<li>
+							<a class="titr" href="#contents" data-transition="none">
+								<i class="icon-book"></i>
+								مطالب
 							</a>
 						</li>
 						<li>
@@ -324,56 +332,6 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- Gallery-->
-		<div data-role="page" data-theme="d" id="gallery">
-			<div data-role="header" data-theme="d" data-position="fixed">
-				<a class="ui-btn-right pause" data-role="button" href="#" ><i  class="icon-play"></i><i  class="icon-pause"></i></a>
-				<a class="ui-btn-left" data-role="button" data-transition="none" href="#home" >
-					<i  class="icon-home"></i>
-				</a>
-				<h3 class="titr">
-					تصاویر
-				</h3>
-			</div>
-			<div data-role="content" data-theme="c">
-				<ul class="gallery">
-					<li><a href="images/gallery/ya_zahra_01.jpg" rel="external"><img src="images/gallery/thumb/ya_zahra_01.jpg" width="135" height="100" alt="تصویر زمینه 1" /></a></li>
-					<li><a href="images/gallery/ya_zahra_02.jpg" rel="external"><img src="images/gallery/thumb/ya_zahra_02.jpg" width="135" height="100" alt="تصویر زمینه 2" /></a></li>
-					<li><a href="images/gallery/ya_zahra_01.jpg" rel="external"><img src="images/gallery/thumb/ya_zahra_01.jpg" width="135" height="100" alt="تصویر زمینه 2" /></a></li>
-				</ul>
-			</div>
-			<div data-role="footer" data-theme="c" data-position="fixed">
-				<div class="nav-bar" data-role="navbar" data-iconpos="top">
-					<ul>
-						<li>
-							<a class="titr" href="#home" data-transition="none">
-								<i class="icon-book"></i>
-								مقالات
-							</a>
-						</li>
-						<li>
-							<a href="#audio" class="titr" data-transition="none">
-								<i class="icon-play"></i>
-								صوتی
-							</a>
-						</li>
-						<li>
-							<a href="#gallery" class="titr ui-btn-active ui-state-persist" data-transition="none">
-								<i class="icon-picture"></i>
-								تصاویر
-							</a>
-						</li>
-						<li>
-							<a href="#about" class="titr" data-transition="none">
-								<i class="icon-envelope"></i>
-								درباره ما
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div> 
 
 		<script type="text/javascript" src="script/cordova-2.6.0.js"></script>
 		<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
