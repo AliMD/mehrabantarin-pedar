@@ -171,4 +171,5 @@ div.book-content p {
 	font-size: 22px;
 	line-height: 1.7;
 	text-indent: 25px;
+	-webkit-font-smoothing: antialiased;
 }
