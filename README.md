@@ -2,16 +2,10 @@
 [changelog]: ./CHANGELOG.md "Corduery Change log"
 [contribute]: ./CONTRIBUTING.md "How to contribute"
 
-## Corduery
-Cordova jQuery Mobile Simple Web App Template.
+## Mehrabantarin Pedar
 
 ### Feature
 Works on any smartphones
-
-### How to use
-
-#### Use in stylus
-UnderDevelop
 
 ### Phone support
 * Android
@@ -41,4 +35,4 @@ Please ask any questions about web technologies [here][support]
 Supported by <b>The<i>One</i>Developers.</b>
 
 ### License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Corduery</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ali.md" property="cc:attributionName" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mehrabantarin Pedar</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ali.md" property="cc:attributionName" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.

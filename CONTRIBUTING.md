@@ -1,4 +1,4 @@
-[home]: http://github.com/AliMD/Corduery "Cordova jQuery Mobile Simple Web App Template."
+[home]: http://github.com/AliMD/Corduery "Mehrabantarin Pedar Mobile App"
 [issues]: http://github.com/AliMD/Corduery/issues "Issues · AliMD/Corduery"
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
 
