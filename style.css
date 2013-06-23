@@ -1,0 +1,166 @@
+@font-face {
+		    font-family: 'Nazanin';
+		    src:
+			url('font/BNazanin.woff') format('woff'),
+			url('font/BNazanin.ttf') format('truetype');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+@font-face {
+		    font-family: 'Titr';
+		    src:
+			url('font/BTitrBold.woff') format('woff'),
+			url('font/BTitrBold.ttf') format('truetype');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		
+.titr {
+	font-family: 'Titr' !important;
+	font-weight: normal !important;
+}
+
+.nazanin {
+	font-family: 'Nazanin' !important;
+	font-weight: normal !important;
+}
+
+.big {
+	font-size: 18px;
+}
+
+.text {
+	text-align: justify;
+	font-size: 22px;
+	line-height: 1.7;
+	text-indent: 25px;
+}
+
+.img-holder {
+	height: 150px; 
+	background-color: #fbfbfb; 
+	border: 1px solid #b8b8b8;
+	background-image: url('images/fatemeh.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.img-holder img {
+	margin: 0 auto;
+	display: none;
+}
+
+.ui-content .ui-listview {
+	margin-top: 18px;
+}
+
+.nav-bar i {
+	display: block;
+	width: auto;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.ui-navbar li .ui-btn-icon-top .ui-btn-inner {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.list-item li a{
+	padding-right: 5px;
+}
+
+.list-item li a i {
+	padding: 0 10px;
+}
+
+div.more {
+	border-radius: 0;
+	-webkit-border-radius:0;
+	margin: 0;
+}
+
+.back i {
+	padding: 2px;
+	font-size: 15px;
+	display: block;
+}
+
+.number {
+	direction: ltr;
+	width: 345px;
+	margin: 0 auto;
+}
+.number span {
+	display: block;
+	font-size: 22px;
+	line-height: 1.7;
+}
+
+.left {
+	float: left;
+}
+.right{
+	float: right;
+}
+
+a.audio-tag{
+	color: #E6E6E6;
+}
+
+a.audio-tag .icon-play-circle,
+a.audio-tag .icon-refresh {
+	display: none;
+}
+
+a.audio-tag.downloaded,
+a.audio-tag.loading{
+	color: #FFF;
+}
+a.audio-tag.downloaded .icon-play-circle {
+	display: inline-block;
+}
+a.audio-tag.downloaded .icon-download-alt {
+	display: none;
+}
+
+a.audio-tag.loading .icon-refresh{
+	display: inline-block;
+}
+a.audio-tag.loading .icon-download-alt{
+	display: none;
+}
+
+.pause .icon-play{
+	display: none;
+}
+.play .icon-pause{
+	display: none;
+}
+
+ul.gallery {
+	list-style-type: none;
+	padding: 0; 
+}
+ul.gallery:after { 
+	clear: both; 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	visibility: hidden;
+}
+ul.gallery li {
+	float: left; 
+	width: 33%;
+}
+ul.gallery li a { 
+	display: block; 
+	margin: 5px; 
+	border: 1px solid #3c3c3c; 
+}
+ul.gallery li img { 
+	display: block; 
+	width: 100%; height: auto; 
+}
